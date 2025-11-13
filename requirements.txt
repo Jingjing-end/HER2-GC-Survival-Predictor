@@ -1,8 +1,10 @@
 streamlit==1.32.2
 numpy==1.26.4
 pandas==2.2.1
-torch==2.4.1
-torchvision==0.19.1
-torchaudio==2.4.1
-shap==0.44.1
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+torchaudio==2.2.2+cpu
+-f https://download.pytorch.org/whl/cpu
 scikit-learn==1.4.2
+shap==0.44.1
+
